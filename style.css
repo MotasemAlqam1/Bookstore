@@ -1,0 +1,208 @@
+```css
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background-color: #0f172a;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+
+/* Hero */
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+
+    background-color: #e0f2fe;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #475569;
+}
+
+.hero-button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background-color: #0284c7;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.hero-button:hover {
+    background-color: #0369a1;
+}
+
+
+/* Books */
+.books-section {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.books-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.books-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    width: 300px;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.book-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.book-card p {
+    color: #64748b;
+}
+
+
+/* Reading Club */
+.club-section {
+    padding: 80px 20px;
+
+    text-align: center;
+
+    background-color: #0f172a;
+    color: white;
+}
+
+.club-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.club-section p {
+    margin-bottom: 30px;
+    color: #cbd5e1;
+}
+
+.join-button {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #38bdf8;
+    color: #0f172a;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background-color: #7dd3fc;
+}
+
+
+/* Footer */
+footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #020617;
+    color: #94a3b8;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .books-section {
+        padding: 60px 20px;
+    }
+}
+```

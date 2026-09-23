@@ -1,7 +1,6 @@
 // let name = prompt("What is your name");
 // let membership = prompt("What is a membership? student or regular");
 
-
 // if (membership == "student") {
 //     alert("Welcome Scholar " + name);
 // }
@@ -190,3 +189,39 @@
 // }
 
 // console.log(toCamelCase("Coding Academy by Orange"));
+
+
+
+//LoopsFunctionsTask
+
+function validationMembership() {
+    let membership = prompt("What is your membership? student or regular");
+
+    while (membership != "student" && membership != "regular") {
+        membership = prompt("What is your membership? student or regular");
+    }
+
+    return membership;
+}
+
+let membership = validationMembership();
+
+function collectUserData(membership) {
+    let name = prompt("What is your name");
+    let genre = prompt("Do you prefer fiction or non-fiction ?");
+    let bookTitle = prompt("What is the title of the book you want to borrow ?");
+
+    let userData = [];
+    userData.push(name);
+    userData.push(membership);
+    userData.push(genre);
+    userData.push(bookTitle);
+
+    return userData;
+}
+
+let userData = collectUserData(membership);
+
+for (let i = 0; i < userData.length; i++) {
+    console.log(userData[i]);
+}

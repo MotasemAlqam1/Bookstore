@@ -2,47 +2,60 @@
 
 ## Description
 
-Bookstore & Reading Club is a JavaScript-based community bookstore project.
+Bookstore & Reading Club is a JavaScript-based interactive bookstore project.
 
-The project allows users to register their membership, choose a preferred reading genre, enter a book title, and simulate a book reservation.
+The project allows users to register through an HTML form, choose their membership type, select a preferred book genre, enter a book title, and display their information dynamically on the page.
 
-The project also includes JavaScript exercises covering conditions, loops, functions, arrays, operators, data types, and string manipulation.
+The project uses JavaScript DOM manipulation and Event Listeners to handle user interactions and update the web page without relying on prompt and alert messages.
 
 ## Technologies
 
 - HTML5
 - CSS3
 - JavaScript
+- DOM Manipulation
+- Event Listeners
 
 ## Features
 
 ### Bookstore
 
-- Ask the user for their name.
-- Validate the membership type.
-- Support Student and Regular memberships.
-- Display a personalized welcome message.
-- Choose a preferred book genre.
-- Enter a book title to borrow.
-- Display a book reservation message.
-- Display the user's name and requested book in the Console.
+- User registration form.
+- Enter username.
+- Select membership type:
+  - Student
+  - Regular
+- Enter preferred book genre.
+- Enter book title.
+- Validate membership type.
+- Store user data in an array.
+- Handle form submission using an Event Listener.
+- Dynamically display registered users on the page.
+- Create and update HTML elements using JavaScript DOM manipulation.
+- Display a registration success message.
 
-### JavaScript Exercises
+### JavaScript Concepts
 
-- JavaScript expressions and operators.
-- Data types and `typeof`.
-- `if / else if / else`.
-- Loops.
+- Variables.
+- Data Types.
+- Operators.
+- Conditions:
+  - if
+  - else if
+  - else
+- Loops:
+  - for
+  - while
 - Functions.
 - Arrays.
-- Array methods.
-- Membership validation.
-- Student discount calculation.
-- Genre management.
-- String manipulation.
-- Case conversion.
-- CamelCase conversion.
-- Number validation using `isNaN()`.
+- Array Methods.
+- String Manipulation.
+- Number Validation using `isNaN()`.
+- DOM Selection.
+- DOM Manipulation.
+- Event Listeners.
+- Form Events.
+- Dynamic HTML Rendering.
 
 ## Project Structure
 
